@@ -1,0 +1,26 @@
+{
+    "name": "lexerom/cryptobillings",
+    "description": "PHP wrapper for the Cryptobillings Payment Gateway.",
+    "type": "library",
+    "keywords": ["dopecoin", "api", "payment", "cryptocurrency"],
+    "homepage": "https://github.com/lexerom/cryptobillings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Sukhikh",
+            "email": "lexerom@gmail.com",
+            "homepage": "https://github.com/lexerom",
+            "role": "Development"
+        }
+    ],
+    "minimum-stability": "dev",    
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "lexerom\\cryptobillings\\": "src"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+
+#cryptobillings-payment-wrapper #coin-list label {
+	margin-top: 10px;
+}
+
+#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+
+#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-click:hover {
+    background: #5d5d5d !important;
+    color: #fff !Important;
+}
+
+#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper a.coin-item-click.active-coin {
+    background: #5d5d5d !important;
+    color: #fff !important;
+}
+
+#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box {
+    height: 80px;
+    padding: 5px;
+    float: left;
+    width: 33.33%;
+}
+
+#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #111111;
+    background: #fff;
+	color: #000 !important;
+}
+
+#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box .coin-label {
+	margin-top: 10px;
+}
+
+#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box img.coin-image {
+    float: left !important;
+    max-height: none !important;
+    margin-right: 10px;
+    margin-top: 10px;
+	height: 25px;
+	width: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box img.coin-image {
+		height: 50px;
+		width: 50px;
+		float: unset !important;
+		margin: auto;
+		display: block;
+	}
+
+	#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box .coin-label {
+    	text-align: center;
+	}
+
+	#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box {
+		width: 25%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#cryptobillings-payment-wrapper .cryptobillings-coins-wrapper .coin-item-box {
+		width: 50%;
+		height: auto;
+	}
+}
